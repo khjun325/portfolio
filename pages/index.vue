@@ -15,7 +15,7 @@
     </div>
     <article class="message">
       <div class="message-header">김형준</div>
-      <div class="message-body">커피를 좋아함
+      <div class="message-body">특징 : 커피를 상당히 좋아함
       </div>
     </article>
     <article class="columns">
@@ -42,8 +42,19 @@
         </div>
       </div>
     </article>
-    <a href="https://www.naver.com">Facebook</a>
+<center>
+    <figure class="image is-128x128">
+        <a href="https://www.facebook.com/profile.php?id=100005101772248">
+          <img src="../static/facebook.png">
+          </a>
+          <br>
+          <a href="https://www.instagram.com/hyung__jun__/">
+            <img src="../static/instagram.png">
+        </a>
+      </figure>
+    </center>
     <nav class="level">
+      
         <div class="level-item has-text-centered">
           <div>
             <p class="heading">Facebook</p>
@@ -59,13 +70,13 @@
         <div class="level-item has-text-centered">
           <div>
             <p class="heading">Followers</p>
-            <p class="title">300</p>
+            <p class="title">344</p>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
             <p class="heading">Likes</p>
-            <p class="title">89</p>
+            <p class="title">55</p>
           </div>
         </div>
       </nav>

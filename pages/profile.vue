@@ -65,9 +65,10 @@
     </article>
 
     <article class="box">
-      <center><strong>
-        My source in github 
-        <br>image click</strong>
+      <center>
+    <strong>
+          My portfolio source in github
+          <br>image click!</strong>
       <figure class="image is-128x128">
         <a href="https://github.com/khjun325">
           <img src="../static/github.png">

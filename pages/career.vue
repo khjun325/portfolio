@@ -1,85 +1,124 @@
 <template>
-        <section class="section">
-          <div class="hero is-dark">
-            <div class="hero-body">
-              <h1 class="title is-1">2. 경력 </h1>
-              <br>
-            </div>
+  <section class="section">
+    <div class="hero is-dark">
+      <div class="hero-body">
+        <h1 class="title is-1">2. 경력 </h1>
+        <br>
+      </div>
+    </div>
+    <article class="message">
+      <div class="message-header">현재까지 진행한 프로젝트</div>
+    </article>
+    <article class="columns is-mobile">
+      <div class="column is-4">
+        <div class="notification">
+                <div class="message-header">
+          <div style="font-size:25pt"> 1. 안드로이드 애플리케이션 제작 (2017)</div>
           </div>
-          <article class="message">
-            <div class="message-header">김형준에 대해서 소개합니다.</div>
-          </article>
-          <article class="columns">
-            <div class="column">
-              <div class="notification">
-                <figure class="image is-480x800">
-                  <img src="../static/aaa.jpg">
-                </figure>
-              </div>
-            </div>
-            <div class="column">
-              <div class="message is-large">
-                <div class="container">
-                  <div class="content text-centered">
-                    <div class="message-header">
-                      <p>Profile</p>
-                    </div>
-                    <table class="table is-striped is-bordered">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <center><strong>생년월일</strong></center></td>
-                          <td>1994.03.25</td>
-                        </tr>
-                        <tr>
-                            <td><center><strong>혈액형</strong></center></td>
-                          <td>A형</td>
-                        </tr>
-                        <tr>
-                          <td><center><strong>가족관계</strong></center></td>
-                          <td>아빠 엄마 동생</td>
-                        </tr>
-                        <tr>
-                          <td><center><strong>거주지</strong></center></td>
-                          <td>인천광역시 남구 관교동 동부아파트</td>
-                        </tr>
-                        <tr>
-                          <td><center><strong>취미</strong></center></td>
-                          <td>영화관람, 카페가서 커피마시기</td>
-                        </tr>
-                        <tr>
-                          <td><center><strong>이메일</strong></center></td>
-                          <td>khjun325@naver.com</td>
-                        </tr>
-                        <tr>
-                          <td><center><strong>연락처</strong></center></td>
-                          <td>010-9582-0283</td>
-                        </tr>
-                      </tbody>
-                    </table>
-      
-                  </div>
-                </div>
-              </div>
-            </div>
-          </article>
-      
-          <article class="box">
-            <center><strong>
-              My source in github 
-              <br>image click</strong>
-            <figure class="image is-128x128">
-              <a href="https://github.com/khjun325">
-                <img src="../static/github.png">
-              </a>
-            </figure>
+          <br>
+          <center>
+            <span class="file-cta" style="font-size:15pt">
+              <span class="file-icon">
+                <i class="fas fa-upload"></i>
+              </span>
+              <span class="file-label">
+                <a href="../plugins/Startgo.zip" download>프로젝트 다운로드</a>
+              </span>
+            </span>
+            <br>
+            <br>
+            <span class="file-cta" style="font-size:15pt">
+              <span class="file-icon">
+                <i class="fas fa-upload"></i>
+              </span>
+              <span class="file-label">
+                <a href="../plugins/UI_UX.pptx" download>PPT 다운로드</a>
+              </span>
+            </span>
           </center>
-          </article>
-        </section>
-      </template>
+        </div>
+      </div>
+      <div class="column is-8">
+        <div class="notification">
+          <div class="message-header">
+
+            <div style="font-size:15pt">
+              <p>
+                System Configuration & Algorithm
+              </p>
+            </div>
+
+          </div>
+          <figure class="image is-3by2">
+            <img src="..//static/app.png">
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <article class="columns is-mobile">
+            <div class="column is-4">
+              <div class="notification">
+                      <div class="message-header">
+                <div style="font-size:25pt"> 2. 졸업 작품 (2017~2018)</div>
+                </div>
+                <br>
+                <center>
+                  <span class="file-cta" style="font-size:15pt">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label">
+                      <a href="../plugins/C_7.pptx" download>판넬 다운로드</a>
+                    </span>
+                  </span>
+                  <br>
+                  <br>
+                  <span class="file-cta" style="font-size:15pt">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label">
+                      <a href="../plugins/SOS.ppt" download>PPT 다운로드</a>
+                    </span>
+                  </span>
+                </center>
+              </div>
+            </div>
+            <div class="column is-8">
+              <div class="notification">
+                <div class="message-header">
       
-      <style>
+                  <div style="font-size:15pt">
+                    <p>
+                      System Configuration & Algorithm
+                    </p>
+                  </div>
       
-      
-      </style>
-      
+                </div>
+                <figure class="image is-3by2">
+                        <img src="..//static/dam.png">
+                      </figure>
+                    </div>
+                  </div>
+                </article>
+
+    <article class="box">
+      <center>
+        <strong>
+          My portfolio source in github
+          <br>image click!</strong>
+        <figure class="image is-128x128">
+          <a href="https://github.com/khjun325">
+            <img src="../static/github.png">
+          </a>
+        </figure>
+      </center>
+    </article>
+  </section>
+</template>
+
+<style>
+
+
+</style>
